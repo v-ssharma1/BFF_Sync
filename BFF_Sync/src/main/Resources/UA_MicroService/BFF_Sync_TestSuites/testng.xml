@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDDSuite" thread-count="4" parallel="tests">
+	<!--suite name="Suite" -->
+	<listeners>
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" /> <listener 
+			class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+		<!-- listener class-name="com.test.automation.uiAutomation.customListener.Listener" 
+			/ -->
+		<!--listener class-name="com.twitterRestAssuredAPIAutomation.RetryFailedTests.Transformation" 
+			/ -->
+		<listener
+			class-name="UA_MicroService.BFF_Sync_Listeners.RetryListener" />
+		<listener
+			class-name="UA_MicroService.BFF_Sync_Listeners.ExtentListener" />
+	</listeners>
+	<test name="APIValidation">
+		<classes>
+			<!-- class name="com.org.ResponseStatusValidation.AllGetResponseStatusValidation" 
+				/ -->
+			<class
+				name="UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner" />
+			<!--class name="com.org.SchemaValidations.SchemaValidationForGetResponse" 
+				/ -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,160 @@
+2020-06-05 12:52:31 INFO  ExtentManager:41 - extent returned
+2020-06-05 12:52:31 INFO  ExtentListener:33 - APIValidationClass started.
+2020-06-05 12:52:32 INFO  TestBase:64 - **************Cucumberfeature Started***************
+2020-06-05 12:52:32 INFO  ExtentListener:63 - Cucumberfeature Test Started.
+2020-06-05 12:52:32 INFO  TestRunner:33 - **************Execution of Customer information validation feature file started**********
+2020-06-05 12:52:32 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:52:32 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:52:32 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:52:33 INFO  CustomerinfoStepDefination:19 - Customer's First Name brandy successfully validated.
+2020-06-05 12:52:33 INFO  CustomerinfoStepDefination:29 - Customer's Last Name gibbs successfully validated.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:52:33 INFO  CustomerinfoStepDefination:39 - Customer's DOB 05/26/1997 successfully validated.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:52:33 INFO  CustomerinfoStepDefination:47 - Sync ADT
+2020-06-05 12:52:33 INFO  CustomerinfoStepDefination:48 - BFF Adult (18-64)
+2020-06-05 12:52:33 INFO  CustomerinfoStepDefination:52 - in if
+2020-06-05 12:52:33 INFO  CustomerinfoStepDefination:54 - Customer's customer type Adult (18-64) successfully validated.
+2020-06-05 12:52:33 INFO  TestRunner:39 - **************Execution of 'Customer information validation' feature file Finished**********
+2020-06-05 12:52:33 INFO  ExtentListener:71 - Cucumberfeature Test Passed.
+2020-06-05 12:52:33 INFO  TestBase:80 - **************CucumberfeatureFinished***************
+2020-06-05 12:52:33 INFO  TestBase:64 - **************Cucumberfeature Started***************
+2020-06-05 12:52:33 INFO  ExtentListener:63 - Cucumberfeature Test Started.
+2020-06-05 12:52:33 INFO  TestRunner:33 - **************Execution of Validation of fare bsic code in the given Farerule string. feature file started**********
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:52:33 INFO  FareRuleStringStepDefination:17 - Farerule string from /Sync service : DEN UA CHI 327.00HAA0AKES UA DEN 864.00BAA0AFEY USD 1191.00 END XT 11.20AY 9.00XF DEN4.5 ORD4.5
+2020-06-05 12:52:33 INFO  FareBaisCodeStepDefination:17 - Number of basic code from Sync : 2
+2020-06-05 12:52:33 INFO  FareBaisCodeStepDefination:19 - Number of basic code from BFF : 2
+2020-06-05 12:52:33 INFO  FareBaisCodeStepDefination:23 - Number of Basic codes in BFF API response is successfully validated for given farerule.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:52:33 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:52:34 INFO  FareRuleStringStepDefination:17 - Farerule string from /Sync service : DEN UA CHI 327.00HAA0AKES UA DEN 864.00BAA0AFEY USD 1191.00 END XT 11.20AY 9.00XF DEN4.5 ORD4.5
+2020-06-05 12:52:34 INFO  FareBaisCodeStepDefination:32 - BaisCode_0_Sync: ["HAA0AKES"]
+2020-06-05 12:52:34 INFO  FareBaisCodeStepDefination:33 - BaisCode_0_BFF: ["HAA0AKES"]
+2020-06-05 12:52:34 INFO  FareBaisCodeStepDefination:32 - BaisCode_1_Sync: ["HAA0AKES"]
+2020-06-05 12:52:34 INFO  FareBaisCodeStepDefination:33 - BaisCode_1_BFF: ["HAA0AKES"]
+2020-06-05 12:52:34 INFO  FareBaisCodeStepDefination:38 - The value of all fare basiccodes in BFF API response is successfully validated for the given farerule.
+2020-06-05 12:52:34 INFO  TestRunner:39 - **************Execution of 'Validation of fare bsic code in the given Farerule string.' feature file Finished**********
+2020-06-05 12:52:34 INFO  ExtentListener:71 - Cucumberfeature Test Passed.
+2020-06-05 12:52:34 INFO  TestBase:80 - **************CucumberfeatureFinished***************
+2020-06-05 12:52:34 INFO  TestBase:64 - **************Cucumberfeature Started***************
+2020-06-05 12:52:34 INFO  ExtentListener:63 - Cucumberfeature Test Started.
+2020-06-05 12:52:34 INFO  TestRunner:33 - **************Execution of Farerule Validation. feature file started**********
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:52:34 INFO  FareRuleStringStepDefination:17 - Farerule string from /Sync service : DEN UA CHI 327.00HAA0AKES UA DEN 864.00BAA0AFEY USD 1191.00 END XT 11.20AY 9.00XF DEN4.5 ORD4.5
+2020-06-05 12:52:34 INFO  FareRuleStringStepDefination:24 - Number of components in FareCalculation list is: 5
+2020-06-05 12:52:34 INFO  FareRuleStringStepDefination:28 - Farerule string from /BFF service : DEN UA CHI 327.00HAA0AKES UA DEN 864.00BAA0AFEY USD 1191.00 END XT 11.20AY 9.00XF DEN4.5 ORD4.5
+2020-06-05 12:52:34 INFO  FareRuleStringStepDefination:36 - Farerule strings from Sync vs BFF successfuly validated.
+2020-06-05 12:52:34 INFO  TestRunner:39 - **************Execution of 'Farerule Validation.' feature file Finished**********
+2020-06-05 12:52:34 INFO  ExtentListener:71 - Cucumberfeature Test Passed.
+2020-06-05 12:52:34 INFO  TestBase:80 - **************CucumberfeatureFinished***************
+2020-06-05 12:52:34 INFO  TestBase:64 - **************Cucumberfeature Started***************
+2020-06-05 12:52:34 INFO  ExtentListener:63 - Cucumberfeature Test Started.
+2020-06-05 12:52:34 INFO  TestRunner:33 - **************Execution of Validatin of status code for BFF and sync services. feature file started**********
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:52:34 INFO  ValidateStatusCodesForSyncAndBFF:48 - Validation of Status Code and status Linefor Sync get service is invoked.
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:56 - Status code 200 of Sync service is validated successfully.
+2020-06-05 12:52:34 INFO  ValidateStatusCodesForSyncAndBFF:40 - Validation of Status Code for BFF get service is invoked.
+2020-06-05 12:52:34 INFO  StatusCodeStepDefination:64 - Status code 200 of BFF service is validated successfully.
+2020-06-05 12:52:34 INFO  TestRunner:39 - **************Execution of 'Validatin of status code for BFF and sync services.' feature file Finished**********
+2020-06-05 12:52:34 INFO  ExtentListener:71 - Cucumberfeature Test Passed.
+2020-06-05 12:52:34 INFO  TestBase:80 - **************CucumberfeatureFinished***************
+2020-06-05 12:52:35 INFO  ExtentListener:22 - APIValidation Test Finished.
+2020-06-05 12:59:50 INFO  ExtentManager:41 - extent returned
+2020-06-05 12:59:50 INFO  ExtentListener:33 - APIValidationClass started.
+2020-06-05 12:59:51 INFO  TestBase:64 - **************Cucumberfeature Started***************
+2020-06-05 12:59:51 INFO  ExtentListener:63 - Cucumberfeature Test Started.
+2020-06-05 12:59:51 INFO  TestRunner:33 - **************Execution of Customer information validation feature file started**********
+2020-06-05 12:59:51 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:59:51 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:59:52 INFO  CustomerinfoStepDefination:19 - Customer's First Name brandy successfully validated.
+2020-06-05 12:59:52 INFO  CustomerinfoStepDefination:29 - Customer's Last Name gibbs successfully validated.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:59:52 INFO  CustomerinfoStepDefination:39 - Customer's DOB 05/26/1997 successfully validated.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:59:52 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:59:52 INFO  CustomerinfoStepDefination:47 - Sync ADT
+2020-06-05 12:59:52 INFO  CustomerinfoStepDefination:48 - BFF Adult (18-64)
+2020-06-05 12:59:52 INFO  CustomerinfoStepDefination:52 - in if
+2020-06-05 12:59:52 INFO  CustomerinfoStepDefination:54 - Customer's customer type Adult (18-64) successfully validated.
+2020-06-05 12:59:52 INFO  TestRunner:39 - **************Execution of 'Customer information validation' feature file Finished**********
+2020-06-05 12:59:52 INFO  ExtentListener:71 - Cucumberfeature Test Passed.
+2020-06-05 12:59:52 INFO  TestBase:80 - **************CucumberfeatureFinished***************
+2020-06-05 12:59:53 INFO  TestBase:64 - **************Cucumberfeature Started***************
+2020-06-05 12:59:53 INFO  ExtentListener:63 - Cucumberfeature Test Started.
+2020-06-05 12:59:53 INFO  TestRunner:33 - **************Execution of Validation of fare bsic code in the given Farerule string. feature file started**********
+2020-06-05 12:59:53 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:59:53 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:59:53 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:59:53 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:59:53 INFO  FareRuleStringStepDefination:17 - Farerule string from /Sync service : DEN UA CHI 327.00HAA0AKES UA DEN 864.00BAA0AFEY USD 1191.00 END XT 11.20AY 9.00XF DEN4.5 ORD4.5
+2020-06-05 12:59:53 INFO  FareBaisCodeStepDefination:17 - Number of basic code from Sync : 2
+2020-06-05 12:59:53 INFO  FareBaisCodeStepDefination:19 - Number of basic code from BFF : 2
+2020-06-05 12:59:53 INFO  FareBaisCodeStepDefination:23 - Number of Basic codes in BFF API response is successfully validated for given farerule.
+2020-06-05 12:59:53 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:59:53 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:59:53 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:59:53 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:59:53 INFO  FareRuleStringStepDefination:17 - Farerule string from /Sync service : DEN UA CHI 327.00HAA0AKES UA DEN 864.00BAA0AFEY USD 1191.00 END XT 11.20AY 9.00XF DEN4.5 ORD4.5
+2020-06-05 12:59:53 INFO  FareBaisCodeStepDefination:32 - BaisCode_0_Sync: ["HAA0AKES"]
+2020-06-05 12:59:53 INFO  FareBaisCodeStepDefination:33 - BaisCode_0_BFF: ["HAA0AKES"]
+2020-06-05 12:59:53 INFO  FareBaisCodeStepDefination:32 - BaisCode_1_Sync: ["HAA0AKES"]
+2020-06-05 12:59:53 INFO  FareBaisCodeStepDefination:33 - BaisCode_1_BFF: ["HAA0AKES"]
+2020-06-05 12:59:53 INFO  FareBaisCodeStepDefination:38 - The value of all fare basiccodes in BFF API response is successfully validated for the given farerule.
+2020-06-05 12:59:53 INFO  TestRunner:39 - **************Execution of 'Validation of fare bsic code in the given Farerule string.' feature file Finished**********
+2020-06-05 12:59:53 INFO  ExtentListener:71 - Cucumberfeature Test Passed.
+2020-06-05 12:59:53 INFO  TestBase:80 - **************CucumberfeatureFinished***************
+2020-06-05 12:59:53 INFO  TestBase:64 - **************Cucumberfeature Started***************
+2020-06-05 12:59:53 INFO  ExtentListener:63 - Cucumberfeature Test Started.
+2020-06-05 12:59:53 INFO  TestRunner:33 - **************Execution of Farerule Validation. feature file started**********
+2020-06-05 12:59:53 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:59:54 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:59:54 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:59:54 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:59:54 INFO  FareRuleStringStepDefination:17 - Farerule string from /Sync service : DEN UA CHI 327.00HAA0AKES UA DEN 864.00BAA0AFEY USD 1191.00 END XT 11.20AY 9.00XF DEN4.5 ORD4.5
+2020-06-05 12:59:54 INFO  FareRuleStringStepDefination:24 - Number of components in FareCalculation list is: 5
+2020-06-05 12:59:54 INFO  FareRuleStringStepDefination:28 - Farerule string from /BFF service : DEN UA CHI 327.00HAA0AKES UA DEN 864.00BAA0AFEY USD 1191.00 END XT 11.20AY 9.00XF DEN4.5 ORD4.5
+2020-06-05 12:59:54 INFO  FareRuleStringStepDefination:36 - Farerule strings from Sync vs BFF successfuly validated.
+2020-06-05 12:59:54 INFO  TestRunner:39 - **************Execution of 'Farerule Validation.' feature file Finished**********
+2020-06-05 12:59:54 INFO  ExtentListener:71 - Cucumberfeature Test Passed.
+2020-06-05 12:59:54 INFO  TestBase:80 - **************CucumberfeatureFinished***************
+2020-06-05 12:59:54 INFO  TestBase:64 - **************Cucumberfeature Started***************
+2020-06-05 12:59:54 INFO  ExtentListener:63 - Cucumberfeature Test Started.
+2020-06-05 12:59:54 INFO  TestRunner:33 - **************Execution of Validatin of status code for BFF and sync services. feature file started**********
+2020-06-05 12:59:54 INFO  StatusCodeStepDefination:20 - Reading BFF API end point.
+2020-06-05 12:59:54 INFO  StatusCodeStepDefination:28 - Reading BFF Sync end point.
+2020-06-05 12:59:54 INFO  StatusCodeStepDefination:39 - BFF Service /BFF is invoked.
+2020-06-05 12:59:54 INFO  StatusCodeStepDefination:48 - Sync Service /Sync is invoked.
+2020-06-05 12:59:54 INFO  ValidateStatusCodesForSyncAndBFF:48 - Validation of Status Code and status Linefor Sync get service is invoked.
+2020-06-05 12:59:54 INFO  StatusCodeStepDefination:56 - Status code 200 of Sync service is validated successfully.
+2020-06-05 12:59:54 INFO  ValidateStatusCodesForSyncAndBFF:40 - Validation of Status Code for BFF get service is invoked.
+2020-06-05 12:59:54 INFO  StatusCodeStepDefination:64 - Status code 200 of BFF service is validated successfully.
+2020-06-05 12:59:54 INFO  TestRunner:39 - **************Execution of 'Validatin of status code for BFF and sync services.' feature file Finished**********
+2020-06-05 12:59:54 INFO  ExtentListener:71 - Cucumberfeature Test Passed.
+2020-06-05 12:59:54 INFO  TestBase:80 - **************CucumberfeatureFinished***************
+2020-06-05 12:59:54 INFO  ExtentListener:22 - APIValidation Test Finished.

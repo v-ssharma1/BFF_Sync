@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [BDDSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="UA_MicroService.BFF_Sync_Listeners.RetryListener"/>
+    <listener class-name="UA_MicroService.BFF_Sync_Listeners.ExtentListener"/>
+  </listeners>
+  <test thread-count="4" name="APIValidation(failed)" parallel="tests">
+    <classes>
+      <class name="UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="Cucumberfeature" invocation-numbers="1 1 1"/>
+          <include name="setUpClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner -->
+    </classes>
+  </test> <!-- APIValidation(failed) -->
+</suite> <!-- Failed suite [BDDSuite] -->

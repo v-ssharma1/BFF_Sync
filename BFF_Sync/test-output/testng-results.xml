@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[APIValidationClass started.]]>
+    </line>
+    <line>
+      <![CDATA[Cucumberfeature Test Started.]]>
+    </line>
+    <line>
+      <![CDATA[Cucumberfeature Test Passed.]]>
+    </line>
+    <line>
+      <![CDATA[Cucumberfeature Test Started.]]>
+    </line>
+    <line>
+      <![CDATA[Cucumberfeature Test Passed.]]>
+    </line>
+    <line>
+      <![CDATA[Cucumberfeature Test Started.]]>
+    </line>
+    <line>
+      <![CDATA[Cucumberfeature Test Passed.]]>
+    </line>
+    <line>
+      <![CDATA[Cucumberfeature Test Started.]]>
+    </line>
+    <line>
+      <![CDATA[Cucumberfeature Test Passed.]]>
+    </line>
+  </reporter-output>
+  <suite name="BDDSuite" duration-ms="3996" started-at="2020-06-05T17:59:50Z" finished-at="2020-06-05T17:59:54Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="Cucumberfeature" class="UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="APIValidation" duration-ms="3996" started-at="2020-06-05T17:59:50Z" finished-at="2020-06-05T17:59:54Z">
+      <class name="UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="beforeSuite" is-config="true" duration-ms="210" started-at="2020-06-05T17:59:50Z" finished-at="2020-06-05T17:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="beforeTest" is-config="true" duration-ms="35" started-at="2020-06-05T17:59:50Z" finished-at="2020-06-05T17:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="setUpClass" is-config="true" duration-ms="632" started-at="2020-06-05T17:59:50Z" finished-at="2020-06-05T17:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="Cucumberfeature" duration-ms="1498" started-at="2020-06-05T17:59:51Z" description="Run cucumber Feature" data-provider="features" finished-at="2020-06-05T17:59:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer information validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Cucumberfeature Test Started.]]>
+            </line>
+            <line>
+              <![CDATA[Cucumberfeature Test Passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Cucumberfeature -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-05T17:59:51Z" finished-at="2020-06-05T17:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner.Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="afterMethod" is-config="true" duration-ms="383" started-at="2020-06-05T17:59:52Z" finished-at="2020-06-05T17:59:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Cucumberfeature status=SUCCESS method=TestRunner.Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52] output=Cucumberfeature Test Started.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-06-05T17:59:53Z" finished-at="2020-06-05T17:59:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner.Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="Cucumberfeature" duration-ms="598" started-at="2020-06-05T17:59:53Z" description="Run cucumber Feature" data-provider="features" finished-at="2020-06-05T17:59:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validation of fare bsic code in the given Farerule string.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Cucumberfeature Test Started.]]>
+            </line>
+            <line>
+              <![CDATA[Cucumberfeature Test Passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Cucumberfeature -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="afterMethod" is-config="true" duration-ms="48" started-at="2020-06-05T17:59:53Z" finished-at="2020-06-05T17:59:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Cucumberfeature status=SUCCESS method=TestRunner.Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52] output=Cucumberfeature Test Started.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-06-05T17:59:53Z" finished-at="2020-06-05T17:59:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner.Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="Cucumberfeature" duration-ms="396" started-at="2020-06-05T17:59:53Z" description="Run cucumber Feature" data-provider="features" finished-at="2020-06-05T17:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Farerule Validation.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Cucumberfeature Test Started.]]>
+            </line>
+            <line>
+              <![CDATA[Cucumberfeature Test Passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Cucumberfeature -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="afterMethod" is-config="true" duration-ms="40" started-at="2020-06-05T17:59:54Z" finished-at="2020-06-05T17:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Cucumberfeature status=SUCCESS method=TestRunner.Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52] output=Cucumberfeature Test Started.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-05T17:59:54Z" finished-at="2020-06-05T17:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner.Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="Cucumberfeature" duration-ms="87" started-at="2020-06-05T17:59:54Z" description="Run cucumber Feature" data-provider="features" finished-at="2020-06-05T17:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validatin of status code for BFF and sync services.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Cucumberfeature Test Started.]]>
+            </line>
+            <line>
+              <![CDATA[Cucumberfeature Test Passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Cucumberfeature -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="afterMethod" is-config="true" duration-ms="85" started-at="2020-06-05T17:59:54Z" finished-at="2020-06-05T17:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Cucumberfeature status=SUCCESS method=TestRunner.Cucumberfeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52] output=Cucumberfeature Test Started.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner@74650e52]" name="testDownClass" is-config="true" duration-ms="53" started-at="2020-06-05T17:59:54Z" finished-at="2020-06-05T17:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- UA_MicroService.BFF_Sync_Cucumber_Runner.TestRunner -->
+    </test> <!-- APIValidation -->
+  </suite> <!-- BDDSuite -->
+</testng-results>
